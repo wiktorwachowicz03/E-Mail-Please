@@ -73,6 +73,7 @@
             btnInstrukcja.TabIndex = 2;
             btnInstrukcja.Text = "INSTRUKCJA";
             btnInstrukcja.UseVisualStyleBackColor = false;
+            btnInstrukcja.Click += btnInstrukcja_Click;
             // 
             // btnWyjscie
             // 

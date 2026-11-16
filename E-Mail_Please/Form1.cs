@@ -21,5 +21,11 @@ namespace E_Mail_Please
         {
             Application.Exit();
         }
+
+        private void btnInstrukcja_Click(object sender, EventArgs e)
+        {
+            FormInstrukcja instrukcja = new FormInstrukcja();
+            instrukcja.ShowDialog();
+        }
     }
 }
